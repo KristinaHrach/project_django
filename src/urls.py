@@ -19,6 +19,6 @@ from django.urls import path
 from test_app.views import index_template
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path ('admin/',admin.site.urls),
     path('home/', index_template),
 ]
